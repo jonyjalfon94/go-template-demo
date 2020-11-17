@@ -1,0 +1,17 @@
+name: "apple"
+
+labels:
+  generated: true
+  foo: bar
+
+container:
+  name: "apple-container"
+  image: "hashicorp/http-echo"
+  text: "apple"
+
+ingress:
+  enabled: false
+  path: "/apple"
+
+pod:
+  text: "apple"
